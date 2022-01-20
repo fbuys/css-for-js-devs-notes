@@ -7,6 +7,8 @@
 
 # Rendering Logic 1:
 
+- In CSS some properties are inherited from their parent elements. [See this list](https://www.sitepoint.com/css-inheritance-introduction/#list-css-properties-inherit). We can also make use of for example `color: inherit` to be explicit.
+
 - Browser treats inline elements as typography, hence line-height is applied to those elements.
 
 - Inline-block elements internally act like block elements, but externally act like inline elements. The parent container will treat it as an inline element, since it's external. But the element itself can be styled like a block.
