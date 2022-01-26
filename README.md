@@ -8,7 +8,7 @@
 # Rendering Logic 1:
 
 - In CSS some properties are inherited from their parent elements. [See this list](https://www.sitepoint.com/css-inheritance-introduction/#list-css-properties-inherit). We can also make use of for example `color: inherit` to be explicit.
-- When we set margin to auto it seeks to fill the maximum available space (similar to how width works).
+- When we set horizontal margin to auto it seeks to fill the maximum available space (similar to how width works). When we set vertical margin to auto it will default to 0px.
 
 - Browser treats inline elements as typography, hence line-height is applied to those elements.
 
