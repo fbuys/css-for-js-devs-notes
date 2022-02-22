@@ -20,7 +20,7 @@
 
 - Height tends to look "down" the tree, to determine its size based on the natural size of its contents, while width tends to look "up" the tree, basing its size on the space made available by the parent.
 
-- Only vertical margins collapse. Margin collapse is unique to Flow layout. Nesting elements doesn't prevent collapsing. Margins can collapse in the same direction. More than two margins can collapse.
+- Only vertical margins collapse. Margin collapse is unique to Flow layout. Only margin between adjacent elements collapse. Bigger margin wins. Nesting elements doesn't prevent collapsing. Margins can collapse in the same direction. More than two margins can collapse.
 
 - Be aware of how you use margins. Don't set the specifically on components, in such cases it is better to use layout components. For reusable components, we want them to be as unopinionated as possible.
 
