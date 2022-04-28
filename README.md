@@ -30,7 +30,7 @@
 - position: relative; is part of the position layout mode. It does two things. 1. Constrain children, 2. Enable new CSS properties.
 - If an absolute element does not have an anchor, it sits in its default in-flow position.
 
-- You can center a positioned element by giving it a margin of auto and setting an equal distance from each edge.
+- You can center a positioned element by giving it width and height, a margin of auto and setting an equal distance from each edge.
 
 - Positioned elements will always render on top of non-positioned ones. If both elements are using position, then the DOM order wins.
 
