@@ -32,6 +32,8 @@
 
 - You can center a positioned element by giving it width and height, a margin of auto and setting an equal distance from each edge. (Useful for modals or drawers or dialog boxes)
 
+- Absolute elements can only be contained by other elements using Positioned layout. (relative, absolute, fixed, and sticky will work)
+
 - Positioned elements will always render on top of non-positioned ones. If both elements are using position, then the DOM order wins.
 
 - One way to create a stacking context is to set position absolute or relative and a z-index to an element. You can also use position fixed or sticky by itself. Another way would be to give the isolation property a value of isolate.
