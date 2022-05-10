@@ -27,12 +27,15 @@
 
 # Rendering Logic 2:
 
+- non-positioned elements are everything using Flow, Flexbox, Grid. Positioned elements are relative, absolute, fixed, sticky.
+
 - position: relative; is part of the position layout mode. It does two things. 1. Constrain children, 2. Enable new CSS properties.
+
 - If an absolute element does not have an anchor, it sits in its default in-flow position.
 
 - You can center a positioned element by giving it width and height, a margin of auto and setting an equal distance from each edge. (Useful for modals or drawers or dialog boxes)
 
-- Absolute elements can only be contained by other elements using Positioned layout. (relative, absolute, fixed, and sticky will work)
+- Absolute elements can only be contained by other elements using Positioned layout.
 
 - Gotcha: in Flow layout, content is painted separately from the background.
 
