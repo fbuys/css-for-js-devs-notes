@@ -45,7 +45,7 @@
 
 - z-index is auto (same as 0) by default.
 
-- You can also use position fixed or sticky by itself. Another way would be to give the isolation property a value of isolate.
+- You can also use position fixed or sticky by itself. `isolation: isolate;` is the lightest touch way to create a stacking context.
 
 - If a parent or grandparent uses the transform property, it becomes the containing block for the fixed element, essentially transforming it into an absolutely-positioned element.
 
